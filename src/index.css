@@ -36,3 +36,24 @@ width: 200px;
 height: 200px;
 
 }
+.Header-Container{
+  top: 0;
+  height: 50px;
+  min-width: 700px;
+  background-color: rgb(228, 228, 228);
+  justify-content: center;
+  margin: 10px;
+
+}
+.Left-Header{
+  height: 50px;
+
+width: 200px;
+display: flex;
+align-items: center;
+padding-left: 10px;
+
+}
+.Left-Header p{
+  font-size: 25px;
+}

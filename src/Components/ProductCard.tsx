@@ -1,8 +1,9 @@
 import  Products  from './Product'
-
+import Header from './Header.tsx';
 function ProductCard() {
   return (
     <>
+    <Header/>
       {Products.map((product) => (
         <div className="ProductCard" key={product.id}>
           <div className="img">
