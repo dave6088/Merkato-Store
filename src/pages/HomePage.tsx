@@ -4,6 +4,9 @@ function HomePage() {
   return (
     <>
     <Header/>
+    <div className='Home-Container'>
+
+    
       {Products.map((product) => (
         <div className="ProductCard" key={product.id}>
           <div className="img">
@@ -34,7 +37,9 @@ function HomePage() {
           </button>
         </div>
       ))}
+      </div>
     </>
+    
   );
 }
 

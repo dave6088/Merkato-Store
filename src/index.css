@@ -1,5 +1,5 @@
 .ProductCard{
-  border: 2px solid black;
+  border: 2px solid#1E293B;
   max-width: 300px;
   border: none;
   box-shadow: 5px 5px 10px rgb(145, 143, 143);
@@ -19,7 +19,7 @@ margin-left: 50px;
 margin-top: 20px;
 padding: 10px;
 border: none;
-background: rgba(4, 88, 199, 0.973);
+background:#1E293B;
 color:white;
 border-radius: 4px;
 cursor: pointer;
@@ -31,6 +31,7 @@ cursor: pointer;
 .quantity{
   display: block;
 }
+
 .img img{
 width: 200px;
 height: 200px;
@@ -56,4 +57,10 @@ padding-left: 10px;
 }
 .Left-Header p{
   font-size: 25px;
+}
+.Home-Container{
+  margin-top: 60px;
+}
+.ProductCard img{
+  border-radius: 10px;
 }
