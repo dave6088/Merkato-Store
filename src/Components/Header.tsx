@@ -1,9 +1,12 @@
 import './header.css';
+import SearchIcon from '../assets/Images/Arrow.png'
 import {Link} from 'react-router-dom'
+import orders from '../pages/Orderspage.tsx'
 function Header() {
   return (
     <>
     <div className="header">
+        <title>Home page</title>
           <div className="left-section">
              <Link to='/' className='header-link'>
                <h2>Merkato Store</h2>
@@ -19,7 +22,7 @@ function Header() {
         />
 
         <button className="search-button">
-          
+          <img src={SearchIcon} alt="SearchIcon" />
         </button>
       </div>
 
@@ -30,8 +33,8 @@ function Header() {
           <span className="orders-text">Orders</span>
         </Link>
 
-        <Link className="cart-link header-link" to="/Checkout">
-          <div className="cart-quantity">3</div>
+        <Link className="cart-link header-link" to="/Cart">
+          <div className="cart-quantity"> </div>
           <div className="cart-text">Cart</div>
         </Link>
       </div>

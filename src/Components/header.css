@@ -20,11 +20,12 @@
 
 .header .header-link {
   display: inline-block;
-  padding: 3px 3px;
+  padding: 3px 9.5px;
   border-radius: 2px ;
   cursor: pointer;
   text-decoration: none;
   color: white;
+
 
 }
 
@@ -65,13 +66,17 @@
 }
 
 .header .search-button {
-  background-color: #ffffff;
+  background-color: #b6b6b6;
   border: 1px solid ;
   width: 45px;
-  height: px;
+  height: 41.1px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   flex-shrink: 0;
+}
+.header .search-button img{
+  width: 30px;
+  
 }
 
 

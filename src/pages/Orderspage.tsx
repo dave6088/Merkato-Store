@@ -1,7 +1,14 @@
+import Header from "../Components/Header";
 function Orderpage()
 {
     return(
-        <h1>Orders page</h1>
+        <>
+        <Header/>
+        <title>Order page</title>
+        <br /><br /><br />
+          <h1>Orders page</h1>
+        </>
+      
     )
 
 }

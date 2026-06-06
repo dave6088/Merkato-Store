@@ -1,21 +1,40 @@
 import  Products  from '../Components/Product.tsx'
 import Header from '../Components/Header.tsx';
+
 function HomePage() {
   return (
     <>
     <Header/>
     <div className='Home-Container'>
 
-    
-      {Products.map((product) => (
+      {
+      Products.map((product) => (
         <div className="ProductCard" key={product.id}>
           <div className="img">
             <img src={product.image} alt={product.name} />
           </div>
-          <hr />
+          
+          <div className='Product_Name'>
+                 {product.name}
+          </div>
+        <div className='Product_Price'>
+          <b>
+<p> ${product.price}</p>
+          </b>
 
-          <p>Name: {product.name}</p>
-          <p>Price: ${product.price}</p>
+        </div>
+          
+          <div className='Product_Rating-Container'>
+         <div className='Prodict_Count'>
+        
+          <img src={`images/ratings/rating-${product.rating.stars *10}.png`}  alt="" />   
+          {/* {product.rating.count} */}
+
+         </div>
+
+            
+            
+          </div>
 
           <div className="quantity">
             <select>

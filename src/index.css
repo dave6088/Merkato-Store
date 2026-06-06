@@ -1,66 +1,116 @@
-.ProductCard{
-  border: 2px solid#1E293B;
-  max-width: 300px;
-  border: none;
-  box-shadow: 5px 5px 10px rgb(145, 143, 143);
-  border-radius: 10px;
+/* ================= PRODUCT CARD ================= */
+.ProductCard {
+  max-width: 400px;
+  border: none; /* removed duplicate border */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10px;
-  padding: 30px;
+  padding: 10px;
   font-size: 16px;
   display: inline-block;
+  vertical-align: top;
+  background: #fff;
+  transition: transform 0.2s ease;
+}
 
-  
+
+
+
+.ProductCard img {
+  width: 100%;
+  max-width: 220px;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.Product_Name {
+  font-size: 15px;
+  font-weight: 500;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+
+  overflow: hidden;
+
+  line-height: 20px;
+  margin-top: 10px;
+}
+.Product_Rating-Container {
+display: inline-block;
+
+}
+.Product_Rating-Container img {
+  display: flex;
+  height: 20px;
+  margin-left: -10px;
+  margin-top: -10px;
+  width: 100px;
+
 
 }
 
-.ProductCard button{
-margin-left: 50px;
-margin-top: 20px;
-padding: 10px;
-border: none;
-background:#1E293B;
-color:white;
-border-radius: 4px;
-cursor: pointer;
+
+
+.Prodict_Count {
+  font-size: 18px;
+  margin: 8px ;
 }
-.ProductCard .input{
-  width: 40px;
-  margin-bottom: 20px;
-}
-.quantity{
+
+
+.quantity {
   display: block;
 }
 
-.img img{
-width: 200px;
-height: 200px;
-
+.ProductCard .input {
+  width: 50px;
+  margin-bottom: 15px;
+  padding: 4px;
 }
-.Header-Container{
+
+
+.ProductCard button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  background: #1E293B;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.ProductCard button:hover {
+  background: #0f172a;
+}
+
+.Header-Container {
+  position: sticky;
   top: 0;
-  height: 50px;
-  min-width: 700px;
+  height: 60px;
   background-color: rgb(228, 228, 228);
-  justify-content: center;
-  margin: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 100;
+}
 
+.Left-Header {
+  display: flex;
+  align-items: center;
 }
-.Left-Header{
-  height: 50px;
 
-width: 200px;
-display: flex;
-align-items: center;
-padding-left: 10px;
+.Left-Header p {
+  font-size: 22px;
+  font-weight: bold;
+}
 
-}
-.Left-Header p{
-  font-size: 25px;
-}
-.Home-Container{
-  margin-top: 60px;
-}
-.ProductCard img{
-  border-radius: 10px;
+
+.Home-Container {
+  margin-top: 80px;
 }
