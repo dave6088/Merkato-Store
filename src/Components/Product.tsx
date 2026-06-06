@@ -1,18 +1,18 @@
 import Images from './Images';
  const product=[{
-    id:1,
-    name:"Apple  re ",
+    id: "1",
+    image: "images/products/women-summer-jean-shorts.jpg",
+    name: "Women's Summer Jean Shorts",
     price:20,
-    image: Images.Apple,
-   rating: {
-      stars: 4.5,
-      count: 99
-    }
+    rating: {
+      stars: 4,
+      count: 160
+    },
 }
 ,
 {
     id:2,
-    name:"Cloth",
+    name:"Men T-shert Cloth",
     price:50,
     image:Images.Cloth
     ,
@@ -24,7 +24,7 @@ import Images from './Images';
 },
 {
     id:3,
-    name:"Shoe",
+    name:"Nike red shoe",
     price:70,
     image:Images.Shoe
     ,
