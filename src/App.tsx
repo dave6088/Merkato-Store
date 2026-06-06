@@ -1,5 +1,5 @@
 
-import ProductCard  from "./Components/ProductCard"
+import ProductCard  from "./pages/HomePage"
 function App() {
   
   return(

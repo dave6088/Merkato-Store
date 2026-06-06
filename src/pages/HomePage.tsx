@@ -1,6 +1,6 @@
-import  Products  from './Product'
-import Header from './Header.tsx';
-function ProductCard() {
+import  Products  from '../Components/Product.tsx'
+import Header from '../Components/Header.tsx';
+function HomePage() {
   return (
     <>
     <Header/>
@@ -9,7 +9,6 @@ function ProductCard() {
           <div className="img">
             <img src={product.image} alt={product.name} />
           </div>
-
           <hr />
 
           <p>Name: {product.name}</p>
@@ -39,4 +38,4 @@ function ProductCard() {
   );
 }
 
-export default ProductCard;
+export default HomePage;
