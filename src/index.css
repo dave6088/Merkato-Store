@@ -1,6 +1,6 @@
 /* ================= PRODUCT CARD ================= */
 .ProductCard {
-  max-width: 400px;
+  max-width: 250px;
   border: none; /* removed duplicate border */
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
   border-radius: 12px;
