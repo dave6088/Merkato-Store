@@ -2,6 +2,7 @@ import './header.css';
 import SearchIcon from '../assets/Images/Arrow.png'
 import {Link} from 'react-router-dom'
 import orders from '../pages/Orderspage.tsx'
+
 function Header() {
   return (
     <>
@@ -34,6 +35,10 @@ function Header() {
         </Link>
 
         <Link className="cart-link header-link" to="/Cart">
+        <div >
+<img  src="images\icons\cart-icon.png" alt="cart"/>
+        </div>
+        
           <div className="cart-quantity"> </div>
           <div className="cart-text">Cart</div>
         </Link>

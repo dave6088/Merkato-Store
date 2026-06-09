@@ -1,4 +1,5 @@
 /* ================= PRODUCT CARD ================= */
+@import "tailwindcss";
 .ProductCard {
   max-width: 250px;
   border: none; /* removed duplicate border */
